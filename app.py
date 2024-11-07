@@ -5,5 +5,5 @@ response = client.run_instances(
     InstanceType='t2.micro',
     KeyName='feature',
     MaxCount=1,
-    MinCount=1
+    MinCount=2
 )
